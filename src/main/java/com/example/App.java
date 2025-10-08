@@ -3,10 +3,11 @@ package com.example;
 /**
  * Classe principale de l'application.
  */
-public class App {
+public final class App {
 
     private App() {
-        // Constructeur privé pour éviter l’instanciation de la classe utilitaire
+        // Constructeur privé pour éviter l’instanciation
+        // de la classe utilitaire
     }
 
     /**
