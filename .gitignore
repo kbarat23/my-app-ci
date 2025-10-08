@@ -1,0 +1,51 @@
+# ==========================
+# Maven build
+# ==========================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# ==========================
+# Logs and temporary files
+# ==========================
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ==========================
+# IDE configuration files
+# ==========================
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# NetBeans
+nbproject/private/
+build/
+
+# ==========================
+# OS-specific files
+# ==========================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# ==========================
+# Environment / secrets
+# ==========================
+.env
+*.env
